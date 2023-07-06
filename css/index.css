@@ -1,0 +1,23 @@
+@charset "utf-8";
+
+header{
+    background-color: steelblue;
+}
+nav{
+    background-color: rgb(224, 13, 206);
+    font-size: 35px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight:600 ;
+}
+nav> a{
+    
+    color: rgb(3, 18, 100);
+
+}
+form{
+    color: rgb(91, 6, 6);
+    
+}
+.checkbox{
+    background-color: yellow;
+}

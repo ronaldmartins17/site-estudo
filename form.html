@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+    <header>
+        <h1> Formas nesta pagina</h1>
+        <nav>
+            <a href="index.html"> inicio</a>
+            <a href="tabelas.html"> tabelas</a>
+            <a href="form.html"> Form</a>
+        </nav>
+    </header>
+    <main>
+        <article>
+            <form action="http://www.example.com/subscribe.php" method="get"> <!-- caixa de testo input text -->
+                <p>teste de formularios
+                <input type="text" name="username" size="15" maxlength="30">
+                </p>
+            </form>
+            <form action="" method="get"> <!-- caixa de senha -->
+                <p>
+                    teste caixa de senha
+                </p>
+                <p>digite aqui sua senha
+                    <input type="password" name="password" id="">
+                </p>
+            </form>
+            <form action=""> <!-- caixa de texto = textarea -->
+                <p>digie aqui sua mensagem</p>
+                <textarea name="testando" id="" cols="30" rows="10"></textarea>
+            </form>
+            
+            <!--
+                VALUE:é um atributo obrigatório que especifica o valor do INPUT quando este botão é selecionado (botões não selecionados são desconsiderados durante a submissão dos dados).
+            -->
+            
+            <form class="checkbox" action=""> <!-- caixa de seleção -->
+                <p>
+                    um checkbox é, uma caixa de seleção
+                </p>
+                <input type="checkbox" nome="anime ano 2023" value="jigokuraku">jigokuraku
+                <input type="checkbox" name="anime ano 2023" value="mashle">mashle
+                <input type="checkbox" name="anime ano 2023" value="kimetsu no yaiba">kimetsu no yaiba
+            </form>
+            <form action=""> <!-- opçao radio -->
+                <p>
+                    aqui temos um radio uma opção unica pra escolher
+                </p>
+                <input type="radio" name="melhor anime de 2023" value="kimetsu no yaiba">kimetsu no yaiba
+                <input type="radio" name="melhor anime de 2023" value="mashle">mashle
+                <input type="radio" name="melhor anime de 2023" value="jigokuraku">jigokuraku
+            </form>
+            <form action=""> <!-- caixa escolha unica -->
+                <p>
+                    temos botoes aqui
+                </p>
+                <input type="button" value="enviar">Enviar
+                <input type="button" value="teste"> Enviar
+                <hr>
+                <input type="button" value="Enviar Formulario">
+                <input type="search" name="pesquisa">
+            </form>
+            <form action=""> <!-- caixa do tipo que vc seleciona a opção -->
+                <h1>select e suas variaçoẽs</h1>
+                <h2>caixa do tipo select</h2>
+                <select name="caixa do tipo opção" >
+                    <option value="ipod">ipod</option>
+                    <option value="samsung">samsung</option>
+                    <option value="mp3antigo">mp3 antigo</option>
+                </select>
+            </form>
+            <form action=""> <!-- caixa mulipla escolha -->
+                <p>
+                A tag Option
+                <br>
+                O option elemento é usado para
+                especificar as opções que o usuário
+                pode selecionar. 
+                <br>
+                As palavras entre a
+                abertura < option>
+                e fechando </ option> tags serão mostrados
+                para o usuário na caixa suspensa.
+                </p>
+
+                <h2>caixa com multipla escolha</h2>
+                <select name="caixa de multipla escolha" size=3 multiple="multiplos">
+                    <option value="pc"selected = "selected">pc</option>
+                    <option value="celular"selected = "selected">celular</option>
+                    <option value="noebook" selected = "selected">noebook</option>
+                </select>
+            </form>
+            <form action=""> <!-- enviando arquivo -->
+                <input type="file" name="enviar arquivo" id="">
+                <input type="submit" value="upload">
+            </form>
+            <form action=""> <!-- função radio -->
+                <p> aqui temos oura função radio</p>
+                <input type="radio" name="comida" value="batata frita">batata frita
+                <input type="radio" name="comida" value="arroz com ovo"> arroz com ovo
+                <input type="radio" name="comida" value="carne frita">carne frita
+            </form>
+            <form action=""> <!-- email -->
+                <p>enviando um email</p>
+                <!--
+                    enviando um email 
+                    primeiro o textpra digiar o email 
+                    E logo em seguidao submit pra criar o botão de enviar
+                -->
+                <input type="text" name="e-mail">
+                <input type="submit" value="assinar">
+            </form>
+
+
+        </article>
+        <hr>
+        <h1> exemplos de form(formularios)</h1>
+        <p>
+            Botões do rádio
+            Para uso quando um usuário deve selecionar um
+            de uma série de opções.
+            <hr>
+            Drop-down caixas
+            Quando um utilizador tem de escolher um de uma
+            série de opções de uma lista.
+            <hr>
+            botões de imagem
+            Semelhante ao enviar botões, mas eles permitem
+            que você use uma imagem.
+            <hr>
+            submeter botões
+            Para enviar os dados do seu formulário para
+            outra página web.
+            <hr>
+            upload de arquivo
+            Permite aos usuários fazer upload de
+            arquivos (por exemplo, imagens) para um site
+        </p>
+        <h2>exemplos</h2>
+        <img src="imagens/Capturar_select-area_20230626165028.png" alt=" exemplos de formularios">
+
+    </main>
+</body>
+</html>
