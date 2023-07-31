@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Form</title>
     <link rel="stylesheet" href="css/index.css">
 </head>
 <body>
@@ -16,6 +16,13 @@
         </nav>
     </header>
     <main>
+                <!--
+                    Sempre que você quiser coletar informações de visitantes que você vai precisar de um formulário, que vive dentro de um <Form> elemento.
+
+                    X Informações de um formulário é enviado em pares nome / valor.
+
+                    X Cada controle de formulário é dado um nome, eo texto do usuário digita ou os valores das opções que eles selecionados são enviados para o servidor. 
+                -->
         <article>
             <form action="http://www.example.com/subscribe.php" method="get"> <!-- caixa de testo input text -->
                 <p>teste de formularios
@@ -34,11 +41,9 @@
                 <p>digie aqui sua mensagem</p>
                 <textarea name="testando" id="" cols="30" rows="10"></textarea>
             </form>
-            
             <!--
                 VALUE:é um atributo obrigatório que especifica o valor do INPUT quando este botão é selecionado (botões não selecionados são desconsiderados durante a submissão dos dados).
             -->
-            
             <form class="checkbox" action=""> <!-- caixa de seleção -->
                 <p>
                     um checkbox é, uma caixa de seleção
@@ -114,6 +119,66 @@
                 -->
                 <input type="text" name="e-mail">
                 <input type="submit" value="assinar">
+            </form>
+            <form action=> <!-- colocar imagens -->
+                <input type="text" name="email">
+                <input type="image" src="imagens/download.png" alt="" width= "100" height= "40">
+            </form>
+            <hr>
+            <form action=""> <!-- button-->
+                <!-- A tag <button> é um elemento HTML representado visualmente por um botão clicável. -->
+                <button>
+                    <img src="imagens/download.png" alt="add" width="100" height="50">
+                    adicionar
+                </button>
+                <input type="hidden" name="bookmark" value="leras">
+            </form>
+            <hr>
+            <form action=""> <!-- label -->
+                <!-- A tag label é importante para os campos de formulários. Ela especifica qual o "rótulo" do input        
+                    (a que se refere o input, como por exemplo envolvê-la em um texto “Nome completo”), -->
+                <label for="">
+                    <input type="text" name="idade" id="">
+                    <input type="text" name="" id="">
+                </label>
+            </form>
+            <fieldset>  <!-- fieldset -->
+                <!--  <fieldset> é usado para agrupar elementos, assim como labels ( <label> ), dentro de um formulário web. -->
+                <legend>dealhes de contato</legend>
+                <label>e-mail
+                    <br>
+                    <input type="text">
+                </label>
+                <br>
+                <label for="">Telefone
+                    <br>
+                    <input type="text" name="" id="">
+                </label>
+                <legend>cep</legend>
+                <input type="text">
+            </fieldset>
+            <form action = "http://www.example.com/login/" method = "post"> <!-- validação de formulário -->
+                <label for = "username"> username: </label> 
+                    <input type = "text" name = "username" required = "required" >
+                    <br/> 
+                <label for ="password"> password: </label>
+                <input type = "password" name ="password" required = type >
+                <input type="submit" name="Submit" value="submit"> 
+            </form>
+            <form action=""> <!-- input sobre data  -->
+                <label for="username">data de partida:</label>
+                <input type="datetime-local" name="datetime" id="">
+                <input type="submit" value="submit">
+            </form>
+            <form action=""> <!-- input sobre e-mail -->
+                <p>Digie aqui seu e-mail</p>
+                <input type="email" name="" id="">
+                <input type="submit" name="" id="">
+            </form>
+            <form action=""> <!-- input sobre caixa de pesquisa-->
+                <p> pesquisa</p>
+                <input type="search" name="search" id="" placeholder="faça sua pesquisa aqui">
+                <input type="submit"  nome="pesquisar">
             </form>
 
 
