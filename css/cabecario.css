@@ -1,0 +1,26 @@
+@charset "utf-8";
+*{
+    margin: 0%;
+}
+header{
+    background-color: rgba(0, 0, 0, 0.376);
+    height: 170px;
+
+}
+header> h1{
+    font-size: 45px;
+    text-align: center;
+    padding: 30px;
+}
+nav{
+    background-color: rgba(0, 0, 0, 0.668);
+    padding: 10px 15px;
+    text-align: center;
+    
+}
+nav> a{
+    color:white;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 600;
+}

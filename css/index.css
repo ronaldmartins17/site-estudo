@@ -1,23 +1,23 @@
 @charset "utf-8";
 
-header{
-    background-color: steelblue;
+@import url('https://fonts.googleapis.com/css2?family=Barriecito&family=Indie+Flower&family=Tilt+Prism&display=swap');    /*  font-family=== Barriecito,cursive   Indie Flower,cursive    Tilt Prism,cursive  */
+
+/*
+font-family: 'Barriecito', cursive;
+font-family: 'Indie Flower', cursive;
+font-family: 'Tilt Prism', cursive;
+*/
+
+
+main{
+    background-color: rgba(0, 0, 0, 0.147);
 }
-nav{
-    background-color: rgb(224, 13, 206);
-    font-size: 35px;
-    font-family: 'Times New Roman', Times, serif;
-    font-weight:600 ;
-}
-nav> a{
-    
-    color: rgb(3, 18, 100);
+h1{
 
 }
-form{
-    color: rgb(91, 6, 6);
-    
+h2{
+
 }
-.checkbox{
-    background-color: yellow;
+p{
+
 }
