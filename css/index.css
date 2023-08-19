@@ -1,23 +1,37 @@
 @charset "utf-8";
 
 @import url('https://fonts.googleapis.com/css2?family=Barriecito&family=Indie+Flower&family=Tilt+Prism&display=swap');    /*  font-family=== Barriecito,cursive   Indie Flower,cursive    Tilt Prism,cursive  */
-
-/*
-font-family: 'Barriecito', cursive;
-font-family: 'Indie Flower', cursive;
-font-family: 'Tilt Prism', cursive;
-*/
-
-
+*{
+    --barri: 'Barriecito', cursive;
+    --indie: 'Indie Flower', cursive;
+    --prism: 'Tilt Prism', cursive;
+}
 main{
-    background-color: rgba(0, 0, 0, 0.147);
+    display: flex;
+}
+.principal{
+    width: 70vw;
+    background-color: rgba(0, 0, 0, 0.102);
+    padding: 0px 25px 0px 25px;
+}
+h1,h2,p{
+    padding: 9px 25px;
 }
 h1{
-
+    font-family:var(--prism);
+    background-color: springgreen;
 }
 h2{
-
+    font-family: var(--barri);
+    background-color: violet;
 }
 p{
+    font-family: var(--indie);
+    background-color: aquamarine;
+    font-size: 19px;
+}
+.lateral{
+    background-color: blue;
+    width:30vw;
 
 }
