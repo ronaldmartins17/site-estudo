@@ -1,10 +1,19 @@
 @charset "utf-8";
 
-@import url('https://fonts.googleapis.com/css2?family=Barriecito&family=Indie+Flower&family=Tilt+Prism&display=swap');    /*  font-family=== Barriecito,cursive   Indie Flower,cursive    Tilt Prism,cursive  */
+@import url('https://fonts.googleapis.com/css2?family=Barriecito&family=Indie+Flower&family=Tilt+Prism&display=swap');   
+ /*   font-family=== Barriecito,cursive   Indie Flower,cursive    Tilt Prism,cursive  */
+@import url('https://fonts.googleapis.com/css2? family= Schoolbell & display=swap');  
+ /*   font-family: 'Schoolbell', cursive;  */
+@import url('https://fonts.googleapis.com/css2? family= Young+Serif & display=swap');
+/*    font-family: 'Young Serif', serif;  */
+
+
 *{
     --barri: 'Barriecito', cursive;
     --indie: 'Indie Flower', cursive;
     --prism: 'Tilt Prism', cursive;
+    --school: 'Schoolbell', cursive;
+    --young: 'Young Serif', serif;
 }
 main{
     display: flex;
@@ -13,9 +22,14 @@ main{
     width: 70vw;
     background-color: rgba(0, 0, 0, 0.102);
     padding: 0px 25px 0px 25px;
+    border: 10px 10px 10px 10px blue
 }
 h1,h2,p{
     padding: 9px 25px;
+}
+article{
+    background-color: blueviolet;
+    border: 10px solid yellow;
 }
 h1{
     font-family:var(--prism);
@@ -26,9 +40,11 @@ h2{
     background-color: violet;
 }
 p{
-    font-family: var(--indie);
+    font-family: 'Times New Roman', Times, serif;
     background-color: aquamarine;
     font-size: 19px;
+    font-weight:800 ;
+    border: 10px solid blue;
 }
 .lateral{
     background-color: blue;

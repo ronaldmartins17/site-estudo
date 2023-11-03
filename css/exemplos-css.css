@@ -1,0 +1,88 @@
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Barriecito&family=Indie+Flower&family=Tilt+Prism&display=swap');   
+ /*   font-family=== Barriecito,cursive   Indie Flower,cursive    Tilt Prism,cursive  */
+@import url('https://fonts.googleapis.com/css2? family= Schoolbell & display=swap');  
+ /*   font-family: 'Schoolbell', cursive;  */
+@import url('https://fonts.googleapis.com/css2? family= Young+Serif & display=swap');
+/*    font-family: 'Young Serif', serif;  */
+
+
+*{
+    --barri: 'Barriecito', cursive;
+    --indie: 'Indie Flower', cursive;
+    --prism: 'Tilt Prism', cursive;
+    --school: 'Schoolbell', cursive;
+    --young: 'Young Serif', serif;
+}
+main{
+    display: flex;
+}
+.principal{
+    width: 65vw;
+    padding: 0px 25px 0px 25px;
+    border: 10px 10px 10px 10px blue
+}
+
+article{
+    background-color: rgba(255, 255, 255, 0.483);
+    border:10px blueviolet dashed;
+    padding: 15px;
+}
+.art1{
+    border:10px aqua dashed;
+    padding: 10px;
+    margin: 15px;
+}
+.art2{
+    border:10px rgb(33, 74, 74) dashed;
+    padding: 10px;
+    margin: 15px;
+}
+.art3{
+    border: 10px rgb(76, 43, 19) dashed;
+    padding: 10px;
+    margin: 15px;
+}
+.art4{
+    border: 10px thistle dashed;
+    border-radius: 50px;
+    padding: 10px;
+    margin: 15px;
+}
+.art5{
+    border: 10px thistle dashed;
+    padding: 10px;
+    margin: 15px;
+}
+h1{
+    font-size: 45px;
+    font-family: var(--prism);
+    padding: 10px;
+    border-bottom: 5px papayawhip solid;
+}
+h2{
+    font-family: var(--indie);
+    font-size: 35px;
+    padding: 6px;
+
+}
+p{
+    font-family: var(--school);
+    font-size: 20px;
+    padding: 10px;
+}
+
+
+img{
+
+    display: block; /* Necessário para o margin funcionar */
+    margin:auto;
+}
+
+
+
+.lateral{
+    background-color: blue;
+    width:30vw;
+}

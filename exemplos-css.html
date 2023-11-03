@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/cabecario.css">
-    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/exemplos-css.css">
     <title>Exemplos CSS</title>
 </head>
 <body>
@@ -22,12 +22,91 @@
     <main>
         <div class=principal>
             <h1>Exemplos aplicados de CSS</h1>
-        <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe dignissimos doloremque cumque velit est laboriosam possimus in eum! Quaerat maxime veniam officiis impedit illo doloribus earum, fugiat et assumenda neque!
-        </p>
-        </div>
-        <div class=lateral>
+           <article class= art1>
+             
+            <h2> fontes na pagina </h2>
+            <p>
+                @import url('https://fonts.googleapis.com/css2?family=Barriecito&family=Indie+Flower&family=Tilt+Prism&display=swap'); <br>
 
+                no css imporamos a fonte e aplicamos <br>
+                Exemplo: <br>
+                @import url('https://fonts.googleapis.com/css2? family= Barriecito & display=swap');<br>
+                font-family=== Barriecito,cursive  <br>
+                Barriecito é o nome da fonte <br>
+                é uma fonte cursiva
+            </p>
+
+           </article>
+            <article class=art2>
+                <h2> mudar cor de fundo </h2>
+            <p>
+                basta que no CSS seja arquivo ou codigo interno vc coloque -/ background-color: /- seguido da cor desejada <br> exemplo <br>
+                background-color:red; <br>
+                agora o fundo vai ficar vermelho <br>
+                seja fundo da pagina, cabeçario,titulos, paragrafos entre outros
+
+            </p>
+            </article>
+
+            <article class=art3>
+                <h2>peso da fonte (negrito)</h2>
+                <p>
+                    font-weight deixa a fonte mais leve ou pesada (negrito) <br>
+                    font-weight:800; <br>
+                    o tamanho vai de 100 a 900 onde  100 sendo a fonte é mais leve e o 900 com font pesada ao maximo
+                </p>
+            </article>
+
+            <article class=art4>
+                <h2>Estilos de borda padrão da tag border-style</h2>
+                <img src="imagens/border.png" alt="">   
+                <p>
+                     border: 30px solid blue <br>
+     
+                     O código acima é uma forma abreviada de escrever os mesmos valores abaixo: <br>
+     
+                     border-width: 30px; // Estiliza a sua largura <br>
+                     border-style: solid; // Estiliza seu estilo <br>
+                     border-color:  blue; // Estiliza sua cor  <br>
+                </p>
+                <img src="imagens/tipos-de-borda.png" alt=""> <br>
+            </article>
+
+
+            <article class=art5>
+                <h1>É possível que um elemento tenha borda em apenas um de seus lados</h1>
+                <img src="imagens/borda-superior.png" alt="">
+                <p>
+                    Com a tag border-top é possivel colocar borda apenas na parte desuperior (cima) <br>
+                    Para cada lado do elemento HTML, temos uma propriedade específica. Confira a seguir quais são: <br>
+
+                    border-top:     Aplica borda na parte superior de um elemento. <br>
+                    border-left:    Aplica borda no lado esquerdo de um elemento. <br>
+                    border-right:   Aplica borda no lado direito de um elemento. <br>
+                    border-bottom:  Aplica borda na parte inferior de um elemento. <br>
+
+                </p>
+
+            </article>
+
+        </div>
+
+        <div class=lateral>
+            <article>
+                <h1>É possível que um elemento tenha borda em apenas um de seus lados</h1>
+                <img src="imagens/borda-superior.png" alt="">
+                <p>
+                    Com a tag border-top é possivel colocar borda apenas na parte desuperior (cima) <br>
+                    Para cada lado do elemento HTML, temos uma propriedade específica. Confira a seguir quais são: <br>
+
+                    border-top:     Aplica borda na parte superior de um elemento. <br>
+                    border-left:    Aplica borda no lado esquerdo de um elemento. <br>
+                    border-right:   Aplica borda no lado direito de um elemento. <br>
+                    border-bottom:  Aplica borda na parte inferior de um elemento. <br>
+
+                </p>
+
+            </article>
         </div>
     </main>
 </body>
