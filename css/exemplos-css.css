@@ -15,7 +15,8 @@
     --school: 'Schoolbell', cursive;
     --young: 'Young Serif', serif;
 }
-main{
+
+.main{
     display: flex;
 }
 .principal{
@@ -61,12 +62,23 @@ h1{
     padding: 10px;
     border-bottom: 5px papayawhip solid;
 }
+header >h1{
+    font-size: 45px;
+    font-family: var(--prism);
+    padding: 10px;
+}
 h2{
-    font-family: var(--indie);
+    font-family: vwar(--indie);
     font-size: 35px;
     padding: 6px;
 
 }
+
+.download{
+    width: 200px;
+    height: 75px;
+}
+
 p{
     font-family: var(--school);
     font-size: 20px;
@@ -74,12 +86,12 @@ p{
 }
 
 
+
 img{
 
     display: block; /* Necessário para o margin funcionar */
     margin:auto;
 }
-
 
 
 .lateral{
